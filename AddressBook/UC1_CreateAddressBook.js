@@ -51,7 +51,7 @@ try
     let emailId = prompt('Enter Email Id: ');
     //Object for class
     let person = new Person(firstName,lastName,address,city,state,zipCode,phoneNumber,emailId);
-    console.log("************************Contact Deatils******************");
+    console.log("\n************************Contact Deatils******************");
    console.log(person.toString());
 }
 catch(e)
